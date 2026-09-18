@@ -1,0 +1,37 @@
+{
+  "showroom_name": "Test House",
+  "cars": [
+    {
+      "type": "electric",
+      "id": 1,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2024,
+      "price": 42000,
+      "color": "White",
+      "status": "sold",
+      "battery_kwh": 60
+    },
+    {
+      "type": "petrol",
+      "id": 2,
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 2023,
+      "price": 22000,
+      "color": "Silver",
+      "status": "available",
+      "fuel_type": "petrol"
+    }
+  ],
+  "sales": {
+    "1": {
+      "car": "[#1] Tesla Model 3 (2024) | White | $42,000.00 | sold | Battery: 60 kWh (Electric)",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "price": 42000,
+      "customer": "Ali"
+    }
+  },
+  "next_id": 4
+}
