@@ -1,0 +1,79 @@
+Data Science:
+	It is a fundamental paradigm within AI in which data is studied, transformed, & used to build predictive models.
+
+Data: Raw facts & figures, or observations.
+
+Information: Data that is transformed & made meaningful.
+
+Primary Elements in AI Model Development:
+1. Domain Understanding
+2. Extract sufficient data for AI model creation.
+
+Type of Data: 
+1. Structured (Rows, Columns, Databases, CSV)
+2. Unstructured (Text, Images, Audio, Video)
+3. Semi Structured (XML, JSON)
+
+Importance of Data in Machine Learning
+	1. Acts as the fuel for machine learning algorithms.
+	2. Directly impacts the model reliability & accuracy
+	3. without quality data even advanced model fails.
+
+Key characteristics of High Quality Data
+	Relevance: Aligned with the problem.
+	Accuracy: Error-free, reliable.
+	Diversity: Covers different cases & variations.
+	Sufficiency: Enough quantity for training
+
+Role of Data in ML Pipeline:
+	Collection: gathering Data
+	Pre-processing: cleaning & transforming
+	Feature Engineering: extracting useful features
+	Model Training: fedding data into algorithms
+	Evaluation: Testing model performance
+	Integration:
+		Pandas + Numpy -> Data Analysis & Numerical Processing
+		Matplotlib & Seaborn -> Data Visualization & Insights
+
+
+Pandas vs Numpy:
+
+Numpy: mostly used for arrays
+	Library for numerical computations
+	Supports multi-dimensional arrays & matrices
+	Enables efficient mathematical operations (linear algebra)
+
+	Why Numpy?
+		Pure python lists are slow & memory inefficient.
+		Numpy provides ndarray (N-dimenisional array)
+		Enables fast numerical operations (vectorized)
+		Forms the foundation for scientific computing and ML libraries
+		Key Concepts:
+			ndarray -> Core data structure 
+			Shape -> Dimensions of the array (rows x columns)
+			ndim -> Number of dimensions (1D, 2D, 3D,...)
+			dtype -> Data type of array elements (int, float, etc)
+
+
+Pandas: used for matrices or multi dimensional arrays
+	Python library for data manipulation and analysis.
+	Provides Data frame and Series Structures
+	Simplifies working with structured data (csv,excel, sql)
+
+Matplotlib
+	Widely used data visualization library.
+	Creates chart, lines, bar, scatter, histograms.
+	Low level interface, requires more code.
+	Basic default styles, manual cuztomization needed for polished visuals.
+	General-purpose, supports a wide range of plots (line, bar, scatter, pie, 3D, etc.)
+	Works with DataFrames and NumPy arrays but requires more manipulation for complex plots
+
+Seaborn
+	Built on top of Matplotlib
+	Provides high level visually appealing plots
+	Ideal for statisical data visualization
+	High level interface, simpler syntax
+	Aesthetically pleasing with built in themes and color palettes
+	Specializes in statistical visualizations (heatmaps, violin plots, pair plots, regression plots)
+	Integrates seamlessly with Pandas DataFrames and handles entire datasets efficiently
+
